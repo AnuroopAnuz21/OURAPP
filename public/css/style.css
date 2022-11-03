@@ -28,6 +28,17 @@ ul {
 a {
 	text-decoration: none;
 }
+.bt {
+	cursor: pointer;
+	padding: 5px 15px;
+	background: var(--light-color);
+	color: var(--dark-color-a);
+	border: 0;
+	font-size: 17px;
+	justify-content: flex-end;
+	
+}
+
 
 .btn {
 	cursor: pointer;
@@ -36,6 +47,7 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	justify-content: flex-end;
 }
 
 /* Chat Page */
@@ -55,7 +67,7 @@ a {
 	padding: 15px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: start;
 }
 
 .chat-main {

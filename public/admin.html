@@ -19,7 +19,8 @@
 				<h1><i class="fas fa-smile"></i> JUTELLA</h1>
 			</header>
 			<main class="join-main">
-				<form action="chat.html">
+				<form action="/easylogin" method="POST">
+
 					<div class="form-control">
 						<label for="adminname">Admin name</label>
 						<input
@@ -33,21 +34,27 @@
 						<label for="adpassword">password</label>
 						<input
 							type="password"
-							name="adpassword"
-							id="adpassword"
+							name="adminpassword"
+							id="adminpassword"
 							placeholder="password"
 							required
 							/>
 					</div>
 					
+					
 				   
-				</form>
-                <div>
-				<a href="adminlogin.html">
-					<button type="adlogin" class="btn">Enter</button>
-				  </a> 
-				</div>
+				
+				<div>
+					<a><button type="adlogin" class="btn">LOGIN</button></a>
+			</div>
+			<div>
+				
+				<a href="newadmin.html"><button type="adlogin" class="btn">New Admin</button>
+		</div>
+               
 			</main>
 		</div>
+	</form>
 	</body>
 </html>
+
